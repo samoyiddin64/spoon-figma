@@ -1,235 +1,35 @@
 body{
-    width: 100%;
-    height: 100vh;
-    background-image: url(./img/IMAGE.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.Spoon{
-    font-family: cursive;
-    color: white;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.navbar{
-    position: relative;
-    width: 1170px;
-    height: 90px;
-    left: 135px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    background-color: black;
+    min-height: 100vh;
 }
-.btn{
-    width: 120px;
-    height: 46px;
-    border-radius: 4px;
-    border: none;
+h1{
+    animation: salom 5s linear infinite;
     border: 1px solid white;
-    color: white;
-    background: transparent;
-}
-.alar{
-    width: 644px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-    top: 13px;
-    left: 526px;
-}
-.salom{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 255, 255);
-}
-.pro{
-    display: flex;
-    position: relative;
-    align-items: center;
-    left: 250px;
-    top: 100px;
-    font-size: 70px;
-    width: 851px;
-    height: 98px;
-}
-.salom2{
-    position: relative;
+    padding: 10px;
+    margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    top: 100px;
-    left: 350px;
 }
-.button{
-    position: relative;
-    top: 152px;
-    left: 499px;
-    color: white;
-    background-color: rgb(20, 224, 20);
-    border-radius: 12px;
-    width: 160px;
-    height: 60px;
-    border: none;
-}
-.div{
-    width: 1170px;
-    height: 528px;
-    position: relative;
-    top: 250px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.promoting{
-    position: relative;
-    top: 160px;
-    left: 150px;
-    width: 607px;
-    height: 144px;
-    font-size: 24px;
-}
-.vlar{
-    color: grey;
-}
-.img{
-    position: relative;
-    border-radius: 12px;
-    top: 340px;
-    left: 150px;
-}
-.salomm{
-    position: relative;
-    border: 1px solid grey;
-    top: 150px;
-    left: 100px;
-    padding: 40px;
-    margin: 10px;
-    width: 377px;
-    height: 330px;
-}
-.imglar{
-    position: relative;
-    border: 1px solid grey;
-    top: -270px;
-    left: 600px;
-    padding: 40px;
-    margin: 10px;
-    width: 377px;
-    height: 330px;
-}
-.pnglar{
-    position: relative;
-    border: 1px solid grey;
-    top: -690px;
-    left: 95%;
-    padding: 40px;
-    margin: 10px;
-    width: 377px;
-    height: 330px;
-}
-.pi{
-    color: grey;
-}
-.ne{
-    color: grey;
-    font-size: 16px;
-}
-.imge{
-    position: relative;
-    top: 600px;
-    left: 100px;
-}
-.salp{
-    position: relative;
-    top: 650px;
-    left: 100px;
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.slar{
-    color: grey;
-    font-size: 15px;
-}
-.illud{
-    position: relative;
-    width: 850px;
-    left: 350px;
-    border: 1px solid grey;
-}
-.span{
-    color: grey;
-    font-size: 18px;
-}
-.link{
-    position: relative;
-    top: 100px;
-}
-.ex{
-    position: relative;
-    left: 600px;
-    top: -250px;
-    width: 462px;
-    height: 108px;
-}
-.ad{
-    color: grey;
-}
-.post{
-    width: 300px;
-    height: 120px;
-    font-size: 13px;
-    position: relative;
-    left: 600px;
-    top: -250px;
-    color: #999999;
-}
-.quas{
-    color: #999999;
-}
-.te{
-    width: 370px;
-}
-.pri{
-    color: #999999;
-    font-size: 14px;
-    width: 368px;
-    height: 144px;
-}
-.src{
-    position: absolute;
-    width: 470px;
-    height: 330px;
-    bottom: 10px;
-    left: 450px;
-}
-.top{
-    width: 1170px;
-    height: 54px;
-    position: relative;
-    top: 250px;
-    left: 250px;
-}
-.wanna{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.see{
-    color: #5AB963;
-    position: relative;
-    left: 180px;
-}
-.part1{
-    color: #5AB963;
-    position: relative;
-    top: 350px;
-    left: 200px;
-}
-.start{
-    position: relative;
-    top: 303px;
-    color: grey;
-}
-.quas{
-    position: relative;
-    top: 304px;
+@keyframes salom {
+    0%{
+        color: red;
+    }
+    15%{
+        color: blue;
+    }
+    20%{
+        color: aqua;
+    }
+    35%{
+        color: white;
+    }
+    40%{
+        color: pink;
+    }
+    50%{
+        color: red;
+    }
 }
